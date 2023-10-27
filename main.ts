@@ -19,14 +19,14 @@ input.onButtonPressed(Button.A, function () {
   basic.showNumber(distanceToTarget)
   basic.clearScreen()
 
-    // if distance is less than 10 cm change led to Red
-    if ((distanceToTarget) < 10) {
-      neoPixelStrip.showColor(neopixel.colors(NeoPixelColors.Red))
-    }
+  // if distance is less than 10 cm change led to Red
+  if ((distanceToTarget) < 10) {
+    neoPixelStrip.showColor(neopixel.colors(NeoPixelColors.Red))
+  }
 
-    // else change color to green
-    else {
-      neoPixelStrip.showColor(neopixel.colors(NeoPixelColors.Green))
-    }
-    basic.showIcon(IconNames.Happy)
+  // else change color to green
+  else {
+    neoPixelStrip.showColor(neopixel.colors(NeoPixelColors.Green))
+  }
+  basic.showIcon(IconNames.Happy)
 })
